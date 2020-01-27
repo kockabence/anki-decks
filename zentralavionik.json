@@ -1,0 +1,1027 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "883d9616-411f-11ea-b445-e8b1fc6deef3",
+    "deck_config_uuid": "883d9a4e-411f-11ea-b445-e8b1fc6deef3",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "883d9a4e-411f-11ea-b445-e8b1fc6deef3",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "Zentralavionik",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1.1. Erklären Sie die Stufen der \"Bit-Fähigkeit\". (3 Stufen)",
+                "1. Logik 2. Memory 3. Time"
+            ],
+            "flags": 0,
+            "guid": "tfp#i<qHxk",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1.2. Machen Sie eine Schaltung für eine bestimmte Anwendung<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (maximal 4 Inputs, 4 Outputs)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sie dürfen LUT oder Gatter benutzen.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "cGrnfF7NRH",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "1.3. Worauf müssen Informatiker achten, wenn Sie mit Elektrotechnikern zusammenarbeiten? Beispiel!<br>",
+                "active high (hohe Spannung = 1, typisch informatik) / active low (niedrige Spannung = 1, typisch ET)"
+            ],
+            "flags": 0,
+            "guid": "F,DD*:b*x^",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2.1. Was ist TMR? Wozu? Wie? (Zeichnen für 1 Bit)",
+                "Triple Modular Redundancy"
+            ],
+            "flags": 0,
+            "guid": "g.USQ2FSL<",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2.2. Machen Sie eine CMOS-Schaltung für AND oder OR.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "lk$[~a-FBb",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2.3. Machen Sie eine Schaltung für einen vorgegebenen Ausdruck oder diese LUT.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wRY%SqN[V6",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2.4. Wie funktioniert ein PMOS &amp; ein NMOS Transistor. (P wie Punkt)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "z+%vKI+~[y",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2.5. Was ist ein Decoder, zeichnen Sie einen für 1 Input Bit &amp; einen für 2 Bits.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "F)X+e9%3jJ",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2.6. Unterschied zwischen Decoder &amp; Multiplexer, erklären &amp; zeichnen. (Man kann auch einen Multiplexer mit einem eingebauten Decoder zeichnen.)",
+                "Decorder: mehrere Inputs, ein Output<div>Multiplexer: ein Input, mehrere Outputs (?)</div>"
+            ],
+            "flags": 0,
+            "guid": "J<2A%V%ogA",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "2.7. Erklären Sie (0, 1, X, Z, open collector, (R oder P))",
+                ""
+            ],
+            "flags": 0,
+            "guid": "f`@C@[BG#%",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "3.1. Wo werden Register eingesetzt.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&gt; Als Pipeline, als Geschichts-Speicher (was war davor)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "gj<mYdo3lC",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "3.2. Unterschied RS, D, Gated und Register?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zeichnen Sie ein Register. Vorgegeben ist ein R-S-Flipflop (oder andersrum)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "GF5BSVHYkc",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "3.3. Wie kann es passieren, dass (A &amp; nicht A)=1 ergibt?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wie nennt man dieses Phänomen",
+                "Spike. Beispiel: A ist 1. Dann wird A 0. Da der Inverter einen kurzen moment braucht, um A zu invertieren, zeigt A und nicht A noch kurz 1 an, bevor es aktualisiert wird"
+            ],
+            "flags": 0,
+            "guid": "u1/o.ye-Qz",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "3.4. Was sind die wichtigen Zeitangaben für ein Register (min. 4)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -&gt; min. Periode, Delay, … <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mit Diagramm",
+                ""
+            ],
+            "flags": 0,
+            "guid": "nQN:T9fpU4",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "4.1. Was ist Antifuse, Flash &amp; SRAM Programmierspeicher für FPGAs?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vor- &amp; Nachteile?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t8%SG7H_^R",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "4.2. Zeichnen Sie und erklären Sie den Entwicklungsprozess von FPGAs, warum 2x simulieren?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yU)ldj=/T.",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "&nbsp; &nbsp; 4.3. Zeichnen Sie und erklären Sie die Diamanten-Kreuzung, warum wird es benutzt?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wbYR4{}e[/",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "4.4. Warum kann man normale Transistoren im Chip nicht direkt zu IO Port verbinden? Wenn nicht wie dann?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wucVoGRt}E",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "4.5. Komponenten FPGA:",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yovM<rtH&<",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "5.1. Was ist das Zweierkomplement &amp; wie funktioniert es?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "IiaW/#}h60",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "5.2. Gegeben ist eine positive Zahl, wandeln Sie diese Zahl in eine negative Zahl im Zweierkomplement um. Was ist der Vorteil?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ti,U$v</,]",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "5.3. Was ist Gray-Code und was ist der Vorteil gegenüber der klassischen Binärdarstellung?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tX>0#I@SH9",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "5.4. Wie stellt man eine Fließkommazahl dar? Gegeben ist eine Dezimalzahl. Wandeln Sie diese Zahl in die Fließkommadarstellung um. (IEEE-754)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "g7MqIH#.V5",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "6.1. Bilden Sie aus folgender Tabelle die disjunktive &amp; konjunktive Normalform.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Q1c5Xj.=Sq",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "6.2. Nenne drei Möglichkeiten eine boolesche Funktion zu minimieren. Wähle ein Verfahren und minimiere folgende Funktion nachvollziehbar.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uf_{1}3)_J",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "6.3. Warum sind KV-Diagramme nur für eine begrenzte Zahl von Eingabevariablen geeignet? -&gt; siehe Bsp. Mit 5 (chaotisch)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ON@bnyx)zJ",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "7.1. What are the 3 sections in VHDL code?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "h,*D~Fm3Vp",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "7.2. What are the differences between an FPGA &amp; a Microprocessor?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uWe?EDTRa;",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "7.3. How is the VHDL code executed?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "v-At_P;54^",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "7.4. What is the purpose of the \"process\" Statement?",
+                "Prozesse werden in einer Reihenfolge ausgefuert, der restliche code parallel."
+            ],
+            "flags": 0,
+            "guid": "fjKBHa-Zv_",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8.1. What is port-mapping?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "qx9@jY8O)@",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "&nbsp; &nbsp; 8.2. How can you test the VHDL code?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "mkbvBso$.}",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8.3. What is the scope (Bereich) of variable &amp; constant?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iHjIu@W[K7",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "8.4. What is the state machine &amp; describe the way to implement it.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Fh)SYCJ5$<",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "9.1. Welche Arten von Hazards gibt es? Erklären Sie ihre Eigenschaften kurz.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "oZ^n2_++[M",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "9.2. Was besagt der Satz von Eichelberger?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hyqOm%PBW7",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "9.3. Geg: Realisierung mit boolescher Funktion.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stellen Sie den Strukturhazard fest &amp; beheben Sie ihn.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "D/=>@.w!%h",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "10.1. Welche verschiedenen Typen von Addierern gibt es &amp; worin unterscheiden sie sich?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "o;i&24jEGu",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "10.2. Welche Arten von Zählerschaltungen gibt es? Was sind die Vor- und Nachteile? (synchroner/asynchroner Zähler)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "D:>;6TD|BD",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "10.3. Wie lässt sich ein Subtrahierer mittels Addierer realisieren? Erstellen Sie die Schaltung für einen 3-Bit-Subtrahierer.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MJ@>/Mt?..",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "&nbsp; &nbsp; 11.1. Unterschied zwischen Embedded System &amp; \"normalen\" Systemen (mind. 5 Unterschiede)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "K5xmNYxkCm",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "12.1. Welche Arten von Interrupts gibt es?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tOymmExD?q",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "12.2. Wie können mehrere Master den selben Bus benutzen?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iv>aOqWq8@",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "12.3. Erklären Sie, wie ein DMA funktioniert und warum er so gut ist. (mit internen Diagrammen)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r=YbT?o3Lp",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "12.4. Wie funktionieren Interrupts? Was muss die Interrupt Service Routine (ISR) machen?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "EB4OB|w=dA",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "13.1. What is the difference between an Exception &amp; an Interrupt?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "PwW{d9=9/k",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "13.2. Examples of Exceptions and Interrupts.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iH-=LTGGWv",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "13.3. Entry &amp; exit sequence of an interrupt",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wF,pWt0ALp",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "13.4. Disadvantages of polling.",
+                "fcking slow and resource intensive"
+            ],
+            "flags": 0,
+            "guid": "os!4@y><]R",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "13.5. What is mashability?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bwcGV8%[zK",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "13.6. What is IVT (Interrupt Vector Table)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "w_qgPv9>a0",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "14.1. Disadvantages of UART (=network ability)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "n:(llapm``",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "14.2. Describe the transmission sequence of any character 'G'",
+                ""
+            ],
+            "flags": 0,
+            "guid": "CK5xe2:gxS",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "14.3. Advantages of I2C",
+                ""
+            ],
+            "flags": 0,
+            "guid": "lq^h8@,zpl",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "14.4. Explain the start &amp; stop sequence of transmission",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Nf^PunG25|",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "15.1. Welches Problem kann beim Einsatz von Caches entstehen, wenn mehrere CPUs/DMA eingesetzt werden? Welche beiden grundsätzlichen Lösungsmöglichkeiten gibt es dafür? Welche Vor- und Nachteile haben diese?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r(tL/iOhIx",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "15.2. Welche Möglichkeiten &amp; Vorteile bietet eine MMU?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t4/i!gaH5+",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "15.3. Erkläre den Ablauf eines DMA-Transfers.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "HO|-0^L+*x",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "15.4. Unter welchen Kriterien wird ausgewählt was im Cache landet?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "LAX=YQzlSi",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "15.5. Vorteile von DMA:",
+                ""
+            ],
+            "flags": 0,
+            "guid": "l>99Xj9?Fz",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "16.1. Welche Arten von Zustandsmaschinen / Automaten gibt es &amp; worin unterscheiden sie sich?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "x#<T]9XWxE",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "16.2. Geg.: Beschreibung einer Zustandsmaschine.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "qqH$#;dC-/",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "16.3. Geg: Automatengraph. Vereinfachen Sie den Graphen so weit wie möglich.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "c&WZ!/)~O5",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "17.1. Erklären Sie den C-Wert von Akkus mit einem Beispiel.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t_aq6DVp*Z",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "17.2. Erklären Sie vier elektrische Energiequellen in Flugzeugen.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "AjkXzAHvuy",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "17.3. Vorteile / Nachteile Lithium - Ionen Akkus:",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ENT1U>;_74",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "18.1. Zeichnen Sie die Schaltung für diese Funktion (+, int, diff, *)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "f-DT=GZ_If",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "18.2. Vergleichen Sie digitale und analoge Signale.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "h~OCK&_RXT",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "18.3. Wann ist es sinnvoll Analogtechnik anstatt Digitaltechnik zu verwenden?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t{.Q]A(->)",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "18.4. Welche Eigenschaft soll mein Spannungs- und Strommessgerät haben, um die Messung wenig zu beeinflussen.",
+                "Spannungsmessgeraet -&gt; hoher Widerstand<div>Strommessgeraet -&gt; niedriger Widerstand</div>"
+            ],
+            "flags": 0,
+            "guid": "H?O)1Q[L)^",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "19.1. Machen Sie eine Schaltung um analoge Signale zu speichern. Worauf muss man achten?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "sJ=w!&gql7",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "19.2. Zeichnen Sie mit Operationsverstärker folgende Funktion:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +, -, *, d/dt, integral, exp, ln, …",
+                ""
+            ],
+            "flags": 0,
+            "guid": "n6ZxhYMr[<",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "19.3. Machen Sie eine Schaltung um diese Differentialgleichung zu simulieren.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "fj?*WAy@~A",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "20.1. Wie erzeugt man einen Elektromotor, der sich in beide Richtung (vorwärts/rückwärts) drehen kann?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kLrSv!;DXh",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "20.2. Zeichnen Sie einen D/A Konverter für 5 Bits mit Dimensionierung der Widerstände (nur positive Werte)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Q(g}NB2RwV",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "20.3. Nachteile von PWM bei Hi-Fi-Anlagen. Wo ist PWM von Vorteil &amp; warum?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "GX`32fTO$a",
+            "note_model_uuid": "883db402-411f-11ea-b445-e8b1fc6deef3",
+            "tags": []
+        }
+    ]
+}
